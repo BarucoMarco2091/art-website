@@ -1,0 +1,56 @@
+@import '../styles/variables.scss';
+@import '../styles/responsivity.scss';
+
+.location-container {
+    display: flex;
+    background: white;
+    margin: 3dvh 3dvh;
+
+    section {
+        flex: 1;
+        max-width: 1240px;
+        margin: auto;
+
+        h2 {
+            color: $gold;
+            font-size: 3rem;
+        }
+
+        .street {
+            color: $gold;
+            font-size: 1.6rem;
+            margin-bottom: 3dvh;
+        }
+
+        .adress {
+            color: $black;
+            font-size: 1rem;
+            margin-bottom: 3dvh;
+        }
+    }
+}
+
+a {
+    position: relative;
+    top: -25dvh;
+    width: 30dvh;
+    height: 8dvh;
+    background-color: $black;
+    color: $white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    background-color: $gold;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: $black;
+    color: $white;
+    padding: 3dvh 3dvh;
+}

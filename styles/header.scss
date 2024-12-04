@@ -1,0 +1,52 @@
+@import '../styles/variables.scss';
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    .black {
+        background-color: $black;
+        width: 60dvh;
+        height: 125dvh;
+    }
+}
+
+.content {
+    display: flex;
+    position: relative;
+    top: -80dvh;
+    color: $gold;
+    font-size: 2.5rem;
+    margin-left: 22dvh;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -120dvh;
+    right: -130dvh;
+    width: 100%;
+
+    .description {
+        font-size: 1.4rem;
+        color: $gray;
+        margin-bottom: 5dvh;
+    }
+
+    a {
+        width: 30dvh;
+        height: 8dvh;
+        background-color: $black;
+        color: $white;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    a:hover {
+        background-color: $gold;
+    }
+}

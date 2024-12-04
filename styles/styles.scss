@@ -1,0 +1,50 @@
+@import '../styles/variables.scss';
+@import '../styles/location.scss';
+@import '../styles/footer.scss';
+@import '../styles/header.scss';
+@import '../styles/main.scss';
+@import '../styles/responsivity.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100dvh;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+
+a {
+    cursor: pointer;
+}
+
+i {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+svg {
+    width: 100%;
+}

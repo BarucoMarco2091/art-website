@@ -1,0 +1,78 @@
+@import '../styles/variables.scss';
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .black {
+        display: none;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        position: static !important;
+        font-size: 1.6rem !important;
+        margin: 2dvh !important;
+        text-align: center;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        position: static !important;
+        font-size: 1rem;
+        margin: 2dvh !important;
+        text-align: center;
+    }
+
+    a {
+        position: static !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container {
+        display: flex;
+        flex-direction: column !important;
+        text-align: center;
+        margin: 2dvh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        display: grid !important;
+        grid-template-areas:
+            "card-1" 
+            "card-2"
+            "card-3" !important;
+    }
+
+    .card-3 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2dvh;
+    }
+}
+
+// location.html
+
+@media screen and (max-width: 768px) {
+    .location-container {
+        display: flex;
+        flex-direction: column !important;
+        text-align: center;
+    }
+}
